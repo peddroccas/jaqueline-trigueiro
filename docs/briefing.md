@@ -263,7 +263,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 
 ### 10.9. Agende seu horário (`Contact`) — `#contato`
 - **Finalidade:** concentrar agendamento, contato e localização.
-- **Conteúdo [Confirmado]:** WhatsApp (61) 98453-7188 escrito e clicável; e-mail jaquelinetrigueiro0@gmail.com; Instagram @jaqueline.trigueiro; endereço; horário das 8h às 20h + `[A CONFIRMAR: dias de atendimento]`; link "Abrir no Google Maps".
+- **Conteúdo [Confirmado]:** WhatsApp (61) 98453-7188 escrito e clicável; e-mail jaquelinetrigueiro0@gmail.com; Instagram @jaqueline.trigueiro; endereço; horário das 8h às 20h (dias omitidos até a confirmação); link "Abrir no Google Maps".
 - O telefone fixo informado é o mesmo número do WhatsApp, por isso aparece uma vez só.
 - O campo LinkedIn trazia um e-mail, por isso foi ignorado.
 - Sem formulário: não há destino para os dados, e o WhatsApp é a ação escolhida.
@@ -321,7 +321,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 
 | # | Pendência | Onde está no código |
 | --- | --- | --- |
-| 1 | Dias da semana de atendimento (marcador visível no site) | `src/content/site.ts` → `contact.days` |
+| 1 | Dias da semana de atendimento (não aparece no site; só o horário 8h–20h) | `src/content/site.ts` → `contact` (comentário) |
 | 2 | Domínio do site | `src/content/site.ts` → `SITE_URL` (comentário `[A CONFIRMAR: domínio do site]`) |
 | 3 | Foto profissional da Jaqueline (4:5, mínimo 1200 × 1500 px) | `src/content/site.ts` → `about` (comentário) |
 | 4 | Qual serviço aparece em cada foto de antes/depois (as legendas usam "Sobrancelhas" e "Lábios") | `src/content/site.ts` → `results` (comentário) |

@@ -34,7 +34,7 @@ export const contact = {
     "https://www.google.com/maps/search/?api=1&query=" +
     encodeURIComponent("QNM 19 Conjunto C Lote 47, Ceilândia Sul, Ceilândia - DF"),
   hours: "Das 8h às 20h",
-  days: "[A CONFIRMAR: dias de atendimento]",
+  // [A CONFIRMAR: dias de atendimento] — não exibido no site até a cliente informar.
   regions: "Distrito Federal e Goiás",
 };
 

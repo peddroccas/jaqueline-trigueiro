@@ -22,12 +22,7 @@ export function Contact() {
     {
       icon: ClockIcon,
       label: "Horário",
-      content: (
-        <p className="text-lg text-ink">
-          {contact.hours}
-          <span className="mt-1 block text-base text-muted">{contact.days}</span>
-        </p>
-      ),
+      content: <p className="text-lg text-ink">{contact.hours}</p>,
     },
     {
       icon: PinIcon,
