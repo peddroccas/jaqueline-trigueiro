@@ -80,7 +80,7 @@ export const hero = {
   subtitle:
     "Sobrancelhas desenhadas à mão livre para combinar com o seu rosto, por quem faz isso há 17 anos. Eu respeito os seus pelos e o seu desenho natural; você só precisa fechar os olhos e confiar.",
   secondaryLink: { label: "Ver antes e depois", href: "#resultados" },
-  trust: ["17 anos de experiência", "Clientes que me acompanham desde o início", "Ceilândia Sul, das 8h às 20h"],
+  trust: ["17 anos de experiência", "Formação avançada em fio a fio", "Ceilândia Sul, das 8h às 20h"],
   image: {
     src: "/images/resultado-sobrancelha-perfil.jpg",
     width: 900,
@@ -236,7 +236,7 @@ export const about = {
   title: "Prazer, eu sou a Jaqueline",
   paragraphs: [
     "Há 17 anos cuido de sobrancelhas e depilação, e há 12 também faço micropigmentação. Nesse tempo aprendi que cada rosto pede um desenho diferente, e é isso que eu busco em cada atendimento.",
-    "Muitas clientes estão comigo desde o começo. Acho que é porque aqui ninguém é atendida com pressa: eu escuto o que você deseja, explico cada etapa e você aprova o desenho antes de começar.",
+    "Tenho clientes que confiam em mim há muitos anos. Acho que é porque aqui ninguém é atendida com pressa: eu escuto o que você deseja, explico cada etapa e você aprova o desenho antes de começar.",
     "Meu compromisso é com a sua segurança e com o que você sonhou para a sua sobrancelha. Aqui você pode confiar.",
   ],
   stats: [

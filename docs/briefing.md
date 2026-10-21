@@ -98,7 +98,7 @@ Site de página única (one-page) para **Jaqueline Trigueiro**, designer de sobr
 
 Os textos foram reescritos para falar do que a cliente ganha, e não da conveniência da profissional. Exemplo: saiu "escolhi esta profissão para organizar meus horários de acordo com a rotina da minha família". Regras seguidas:
 - Benefício primeiro, com as palavras da própria cliente ("sobrancelha perfeita", "fechar os olhos e confiar", "o que você sonhou").
-- Prova e diferencial com fatos confirmados: 17 anos, clientes desde o início, formação avançada em **fio a fio** (IESE Goiânia), desenho aprovado antes, anestésico.
+- Prova e diferencial com fatos confirmados: 17 anos, clientes de muitos anos (no "Sobre mim"), formação avançada em **fio a fio** (IESE Goiânia), desenho aprovado antes, anestésico.
 - Objeções respondidas: dor (anestésico e linha), resultado artificial, técnica, **preço** (nova pergunta: "Quanto custa?", sem citar valores) e outras cidades.
 - Chamadas que dizem o próximo passo ("Gostou? Me conte no WhatsApp o que você quer para a sua sobrancelha", "Vamos marcar o seu horário?").
 - Sem promessas de resultado, sem urgência e sem tempo de resposta inventado.
@@ -218,7 +218,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 - **Slogan [Confirmado pela equipe]:** "Tirar pelo de sobrancelha todos conseguem, saber qual pelo tirar é o meu diferencial." Aparece em destaque, como citação, logo abaixo da dobra do hero (fundo do hero), sem assinatura (o site já fala em primeira pessoa). "Pelo" está sem acento, conforme a ortografia vigente.
 - **Fundo:** degradê suave de `blush` → `cha` → `paper`.
 - **Ações:** "Agendar pelo WhatsApp" + link "Ver antes e depois".
-- **Sinais de confiança [Confirmado]:** 17 anos de experiência · Atendimento presencial na Ceilândia Sul · Das 8h às 20h.
+- **Sinais de confiança [Confirmado]:** 17 anos de experiência · Formação avançada em fio a fio · Ceilândia Sul, das 8h às 20h. ("Clientes que me acompanham desde o início" foi testado aqui e removido: solto, sem contexto, não dizia nada para quem chega. A ideia ficou no "Sobre mim".)
 - **Imagem:** foto real de resultado em moldura de arco, com o cartão "Resultado real · Design de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
 - **Desktop:** texto à esquerda (7/12) e foto à direita (5/12). **Mobile:** título → subtítulo → botão → sinais de confiança → foto (a foto fica abaixo do botão).
 
