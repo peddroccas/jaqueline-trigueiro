@@ -330,7 +330,7 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 
 - Next.js (App Router, TypeScript) + Tailwind CSS v4, site 100% estático.
 - Conteúdo centralizado em `src/content/site.ts`; links do WhatsApp gerados em `src/lib/whatsapp.ts`.
-- Sem formulário, sem analytics e sem pixels (não foram pedidos). Toda chamada para ação tem `data-cta` para medição futura.
+- Sem formulário e sem pixels. **Vercel Analytics** instalado a pedido da equipe (`@vercel/analytics`, componente `<Analytics />` no `layout.tsx`): conta visitas sem cookies e só envia dados com o site publicado na Vercel e o Analytics ativado no painel do projeto. Toda chamada para ação tem `data-cta` para medição futura.
 - Única dependência extra: nenhuma (ícones em SVG inline).
 
 ## 16. Pendências
