@@ -16,7 +16,6 @@ function FeaturedService({ service }: { service: Service }) {
             alt={service.image.alt}
             sizes="(min-width: 768px) 46vw, 92vw"
             className="size-full object-cover"
-            style={{ objectPosition: service.image.position }}
           />
         </div>
       )}

@@ -90,7 +90,7 @@ export const hero = {
   imageCaption: { title: "Jaqueline Trigueiro", detail: "Designer de sobrancelhas · Ceilândia Sul" },
 };
 
-type Photo = { src: string; width: number; height: number; alt: string; position?: string };
+type Photo = { src: string; width: number; height: number; alt: string };
 
 export type Service = {
   id: string;
@@ -115,10 +115,10 @@ export const services: { featured: Service[]; more: Service[] } = {
       linkLabel: "Agendar design",
       message: "design",
       image: {
-        src: "/images/resultado-sobrancelha-olhos-fechados.jpg",
-        width: 1600,
-        height: 866,
-        alt: "Sobrancelhas alinhadas depois do design, vistas de frente com os olhos fechados",
+        src: "/images/sobrancelha-3-depois.jpg",
+        width: 1200,
+        height: 588,
+        alt: "Sobrancelhas alinhadas e preenchidas depois do atendimento",
       },
     },
     {
@@ -131,11 +131,10 @@ export const services: { featured: Service[]; more: Service[] } = {
       linkLabel: "Agendar micropigmentação",
       message: "micropigmentacao",
       image: {
-        src: "/images/resultado-sobrancelha-perfil.jpg",
-        width: 900,
-        height: 1600,
-        alt: "Sobrancelhas recém-pigmentadas, com fios desenhados e cor uniforme",
-        position: "50% 42%",
+        src: "/images/sobrancelha-1-depois.jpg",
+        width: 1200,
+        height: 588,
+        alt: "Sobrancelhas pigmentadas com desenho definido e cor uniforme",
       },
     },
   ],

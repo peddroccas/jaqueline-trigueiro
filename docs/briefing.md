@@ -231,7 +231,7 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 ### 10.3. Serviços (`Services`) — `#servicos`
 - **Finalidade:** a visitante se reconhecer numa situação e agendar aquele serviço.
 - **h2 [Sugerido]:** "O que você procura hoje?"
-- **Composição:** os dois serviços principais (Design e Micropigmentação de sobrancelhas) aparecem como cartões grandes em rosa chá, com foto de resultado (proporção 16:7) que não aparece em nenhum outro lugar do site (design: `resultado-sobrancelha-olhos-fechados.jpg`; micropigmentação: `resultado-sobrancelha-perfil.jpg`). Os outros três (Brow lamination, Micropigmentação labial e Depilação) aparecem em três cartões brancos menores, lado a lado. Ordem em cada cartão: título → "Para quem…" (itálico dourado) → descrição curta com os termos usados pela cliente (henna, tintura, linha, pinça, anestésico) → link "Agendar …", com mensagem própria no WhatsApp. Os links ficam alinhados na base dos cartões.
+- **Composição:** os dois serviços principais (Design e Micropigmentação de sobrancelhas) aparecem como cartões grandes em rosa chá, com foto de resultado (proporção 16:7) (design: `sobrancelha-3-depois.jpg`; micropigmentação: `sobrancelha-1-depois.jpg`, as mesmas do antes e depois, por decisão da equipe). Os outros três (Brow lamination, Micropigmentação labial e Depilação) aparecem em três cartões brancos menores, lado a lado. Ordem em cada cartão: título → "Para quem…" (itálico dourado) → descrição curta com os termos usados pela cliente (henna, tintura, linha, pinça, anestésico) → link "Agendar …", com mensagem própria no WhatsApp. Os links ficam alinhados na base dos cartões.
 - **Mobile:** todos os cartões em uma coluna.
 
 ### 10.4. Antes e depois (`Results`) — `#resultados`
@@ -362,7 +362,7 @@ Parecer de CRO feito sobre o site pronto. A equipe decidiu item por item:
 | 6 | Preço "a partir de" | Mantido sem preço |
 | 7 | Medição de cliques no WhatsApp | Pulado |
 | 8 | Ordem e tamanho do antes e depois | Pulado |
-| 9 | Fotos repetidas nos cartões de serviço e galeria aleatória | **Feito:** cartões com fotos exclusivas; galeria removida |
+| 9 | Fotos repetidas nos cartões de serviço e galeria aleatória | **Feito em parte:** galeria removida; os cartões voltaram às fotos originais a pedido da equipe |
 | 10 | Foto do espaço pouco elegante | Pulado |
 | 11 | Slogan logo abaixo do hero | Pulado |
 | 12 | "Como eu trabalho" falando só de micropigmentação | **Feito:** 3 etapas para todos + quadro "Na micropigmentação, além disso" |
