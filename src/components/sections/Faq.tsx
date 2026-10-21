@@ -6,7 +6,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function Faq() {
   return (
-    <section id="duvidas" aria-labelledby="duvidas-title" className="bg-cha py-20 sm:py-24 lg:py-28">
+    <section id="duvidas" aria-labelledby="duvidas-title" className="bg-cha py-14 sm:py-16 lg:py-20">
       <Container className="grid gap-12 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <SectionHeading id="duvidas-title" eyebrow={faq.eyebrow} title={faq.title} />

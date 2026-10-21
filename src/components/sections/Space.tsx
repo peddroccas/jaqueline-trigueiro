@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 export function Space() {
   const { address } = contact;
   return (
-    <section id="espaco" aria-labelledby="espaco-title" className="bg-paper py-20 sm:py-24 lg:py-28">
+    <section id="espaco" aria-labelledby="espaco-title" className="bg-paper py-14 sm:py-16 lg:py-20">
       <Container className="grid items-center gap-12 md:grid-cols-2 lg:gap-20">
         <div className="mx-auto w-full max-w-md">
           <div className="aspect-[4/5] overflow-hidden rounded-t-full border border-cha-deep bg-cha">

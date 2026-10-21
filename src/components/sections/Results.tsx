@@ -18,11 +18,11 @@ function Labeled({ label, src, alt }: { label: string; src: string; alt: string 
 
 export function Results() {
   return (
-    <section id="resultados" aria-labelledby="resultados-title" className="bg-cha py-20 sm:py-24 lg:py-28">
+    <section id="resultados" aria-labelledby="resultados-title" className="bg-cha py-14 sm:py-16 lg:py-20">
       <Container>
         <SectionHeading id="resultados-title" eyebrow={results.eyebrow} title={results.title} intro={results.intro} />
 
-        <ul className="mt-12 grid gap-6 md:grid-cols-2">
+        <ul className="mt-10 grid gap-6 md:grid-cols-2">
           {results.pairs.map((pair) => (
             <li key={pair.id}>
               <figure className="overflow-hidden rounded-[var(--radius-card)] bg-white shadow-[var(--shadow-soft)]">
@@ -57,7 +57,7 @@ export function Results() {
           ))}
         </ul>
 
-        <div className="mt-12 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6">
+        <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6">
           <CtaButton location="resultados" className="w-full sm:w-auto" />
           <p className="text-muted">Quer um resultado assim? Me conte o que você deseja.</p>
         </div>

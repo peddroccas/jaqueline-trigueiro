@@ -11,7 +11,7 @@ export function Hero() {
       aria-labelledby="hero-title"
       className="relative overflow-hidden bg-[radial-gradient(120%_90%_at_85%_10%,var(--color-blush)_0%,var(--color-cha)_45%,var(--color-paper)_100%)]"
     >
-      <Container className="relative grid gap-14 pt-10 pb-20 sm:pt-14 lg:grid-cols-12 lg:items-center lg:gap-10 lg:pt-16 lg:pb-24">
+      <Container className="relative grid gap-14 pt-10 pb-16 sm:pt-12 lg:grid-cols-12 lg:items-center lg:gap-10 lg:pt-14 lg:pb-16">
         <div className="lg:col-span-7">
           <p className="eyebrow text-gold">{hero.eyebrow}</p>
           <h1
@@ -62,7 +62,7 @@ export function Hero() {
         </figure>
       </Container>
 
-      <Container className="relative pb-16 lg:pb-20">
+      <Container className="relative pb-14 lg:pb-16">
         <blockquote className="mx-auto max-w-4xl text-center">
           <BrowArc className="mx-auto h-6 w-28 text-gold-line" />
           <p className="mt-4 font-display text-[1.75rem] leading-snug font-medium text-balance text-ink italic sm:text-4xl">

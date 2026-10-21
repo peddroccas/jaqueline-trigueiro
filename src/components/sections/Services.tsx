@@ -53,17 +53,17 @@ function FeaturedService({ service }: { service: Service }) {
 
 export function Services() {
   return (
-    <section id="servicos" aria-labelledby="servicos-title" className="bg-paper py-20 sm:py-24 lg:py-28">
+    <section id="servicos" aria-labelledby="servicos-title" className="bg-paper py-14 sm:py-16 lg:py-20">
       <Container>
         <SectionHeading id="servicos-title" {...servicesSection} />
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
           {services.featured.map((service) => (
             <FeaturedService key={service.id} service={service} />
           ))}
         </div>
 
-        <ol className="mt-12 border-t border-cha-deep">
+        <ol className="mt-10 border-t border-cha-deep">
           {services.more.map((service, index) => (
             <li
               key={service.id}

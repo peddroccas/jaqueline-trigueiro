@@ -66,8 +66,8 @@ export function Contact() {
   ];
 
   return (
-    <section id="contato" aria-labelledby="contato-title" className="bg-paper py-20 sm:py-24 lg:py-28">
-      <Container className="grid gap-14 lg:grid-cols-12 lg:gap-12">
+    <section id="contato" aria-labelledby="contato-title" className="bg-paper py-14 sm:py-16 lg:py-20">
+      <Container className="grid gap-12 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-5">
           <SectionHeading
             id="contato-title"
