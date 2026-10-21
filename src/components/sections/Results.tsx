@@ -3,7 +3,6 @@ import { results } from "@/content/site";
 import { Container } from "@/components/ui/Container";
 import { CtaButton } from "@/components/ui/CtaButton";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import clsx from "@/lib/clsx";
 
 function Labeled({ label, src, alt }: { label: string; src: string; alt: string }) {
   return (
@@ -36,21 +35,15 @@ export function Results() {
           ))}
         </ul>
 
-        <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-3" aria-label="Mais resultados">
-          {results.more.map((photo, index) => (
-            <li
-              key={photo.src}
-              className={clsx(
-                "overflow-hidden rounded-[var(--radius-card)] bg-cha-deep",
-                index === 2 ? "col-span-2 aspect-[16/9] md:col-span-1 md:aspect-[4/5]" : "aspect-[4/5]",
-              )}
-            >
+        <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-4" aria-label="Mais resultados">
+          {results.more.map((photo) => (
+            <li key={photo.src} className="aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-cha-deep">
               <Image
                 src={photo.src}
                 width={photo.width}
                 height={photo.height}
                 alt={photo.alt}
-                sizes="(min-width: 768px) 30vw, 46vw"
+                sizes="(min-width: 768px) 23vw, 46vw"
                 className="size-full object-cover"
               />
             </li>

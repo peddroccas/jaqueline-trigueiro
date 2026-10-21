@@ -159,7 +159,7 @@ O dourado preenchido (`accent`) aparece **somente** no botão "Agendar pelo What
 - Os metadados das fotos (EXIF, que pode conter localização) foram removidos e as imagens foram reduzidas para no máximo 1600 px.
 - Tratamento: fotos sem filtros. As fotos de resultado não devem ser alteradas, para não descaracterizar o trabalho.
 - Molduras: arco no topo (`rounded-t-full`) para as fotos de destaque e cantos suaves para a galeria.
-- **Não há foto da Jaqueline** entre os anexos, embora o formulário diga que ela tem fotos profissionais **[Pendente]**. Por regra, não usamos banco de imagens no lugar dela. O hero usa uma foto real de resultado e a seção "Sobre" usa o logotipo e os números de experiência.
+- **Foto da Jaqueline [Confirmado, enviada pela equipe em 21/10/2026]:** retrato de rosto (`jaqueline-trigueiro.jpg`, 722 × 863 px, sem metadados). Aparece no hero (moldura em arco 4:5, com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul") e no "Sobre mim" (círculo, recorte mais fechado no rosto). A resolução está abaixo do ideal (1200 × 1500 px) **[Pendente: pedir o arquivo original]**. A foto de resultado que estava no hero passou para a galeria do antes e depois.
 - **Logotipo:** o fundo preto do arquivo enviado foi removido (PNG transparente, com bordas suaves), para o logo se apoiar direto no fundo rosa chá. A frase do logotipo está escrita "Depitação" em vez de "Depilação" **[Pendente: avisar a cliente; o arquivo não foi alterado]**.
 
 ### 7.7. Acabamento
@@ -201,7 +201,9 @@ Como cada pedido foi atendido:
 - **Contato + Localização + Agendamento** → seção "Agende seu horário", com WhatsApp, endereço, mapa e horário.
 - **Acrescentadas [Sugerido]:** "Antes e depois" (prova real, essencial para quem decide pela aparência), "Como eu trabalho" (responde à barreira de confiança) e "Dúvidas" (a cliente listou dúvidas recorrentes sobre dor e técnica).
 
-Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho → Sobre a Jaqueline → O espaço → Dúvidas → Agende seu horário → Rodapé (+ barra fixa no mobile).
+Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Sobre mim → Como eu trabalho → O espaço → Dúvidas → Agende seu horário → Rodapé.
+
+Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois: em serviço pessoal, conhecer quem atende pesa na decisão logo depois de ver os resultados. Fundos alternados: `paper` (serviços, sobre, espaço, contato) e `cha` (resultados, método, dúvidas).
 
 ## 10. Seções
 
@@ -220,7 +222,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 - **Fundo:** degradê suave de `blush` → `cha` → `paper`.
 - **Ações:** "Agendar pelo WhatsApp" + link "Ver antes e depois".
 - **Sinais de confiança [Confirmado]:** 17 anos de experiência · Formação avançada em fio a fio · Ceilândia Sul, das 8h às 20h. ("Clientes que me acompanham desde o início" foi testado aqui e removido: solto, sem contexto, não dizia nada para quem chega. A ideia ficou no "Sobre mim".)
-- **Imagem:** foto real de resultado em moldura de arco, com o cartão "Resultado real · Design de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
+- **Imagem:** foto da Jaqueline em moldura de arco, com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
 - **Desktop:** texto à esquerda (7/12) e foto à direita (5/12). **Mobile:** título → subtítulo → botão → sinais de confiança → foto (a foto fica abaixo do botão).
 
 ### 10.3. Serviços (`Services`) — `#servicos`
@@ -244,7 +246,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
   2. Avaliação do seu desenho natural, da quantidade de pelos e do formato do seu rosto.
   3. Marcações e medições para encontrar a simetria. Na micropigmentação, a cor é escolhida para combinar com você.
   4. Você aprova o desenho antes de começar. Na micropigmentação, a pele é preparada e o procedimento só começa com o anestésico em efeito.
-- **Fundo:** `paper`, com as etapas num cartão com divisores. **Ação:** botão principal.
+- **Fundo:** `cha`, com as etapas num cartão com divisores. **Ação:** botão principal.
 
 ### 10.6. Sobre a Jaqueline (`About`) — `#sobre`
 - **Finalidade:** humanizar e mostrar experiência (Formação + Experiência profissional).
@@ -252,8 +254,8 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 - **Texto [Sugerido, com base nos dados confirmados]:** são 17 anos de design de sobrancelhas e depilação e 12 de micropigmentação; ela escolheu a profissão para conciliar o trabalho com a família; tem clientes que a acompanham desde o começo; dedica tempo a cada atendimento.
 - **Números [Confirmado]:** 17 anos (design e depilação) · 12 anos (micropigmentação).
 - **Formação [Confirmado pela equipe]:** 2009 — Design de sobrancelhas e depilação, Instituto Embeleze · 2014 — Micropigmentação básica, Ciclos Estética · 2016 — Micropigmentação avançada em fio a fio, IESE Goiânia. Exibida como linha do tempo (ano em dourado, curso e escola). As datas batem com os 17 anos (desde 2009) e os 12 anos de micropigmentação (desde 2014).
-- **Foto:** a cliente ainda não enviou foto dela **[Pendente]**. Até chegar, a coluna da esquerda mostra o logotipo e os números de experiência em cartões brancos.
-- **Fundo:** `cha`. **Ação:** botão principal ("momento de maior confiança").
+- **Foto:** retrato da Jaqueline em círculo (recorte diferente do hero), com os números de experiência em cartões brancos logo abaixo.
+- **Fundo:** `paper`. **Ação:** botão principal ("momento de maior confiança").
 
 ### 10.7. O espaço (`Space`) — `#espaco`
 - **Finalidade:** mostrar onde ela atende e dar segurança a quem vai pela primeira vez.
@@ -334,7 +336,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 | --- | --- | --- |
 | 1 | Dias da semana de atendimento (não aparece no site; só o horário 8h–20h) | `src/content/site.ts` → `contact` (comentário) |
 | 2 | Domínio do site | `src/content/site.ts` → `SITE_URL` (comentário `[A CONFIRMAR: domínio do site]`) |
-| 3 | Foto profissional da Jaqueline (4:5, mínimo 1200 × 1500 px) | `src/content/site.ts` → `about` (comentário) |
+| 3 | Arquivo original da foto da Jaqueline (a enviada tem 722 × 863 px; ideal 1200 × 1500 px ou mais) | `src/content/site.ts` → `hero.image` (comentário) |
 | 4 | Qual serviço aparece em cada foto de antes/depois (as legendas usam "Sobrancelhas" e "Lábios") | `src/content/site.ts` → `results` (comentário) |
 | 5 | Autorização das clientes que aparecem nas fotos de resultado | (não aparece no site) |
 | 6 | Vídeos enviados (não analisados) e depoimentos (a cliente diz ter) | (não aparecem no site) |
@@ -348,7 +350,7 @@ Resolvidas nesta versão: slogan e cursos (informados pela equipe em 21/10/2026)
 - [x] O título do hero diz o que é oferecido, para quem e onde ("Design de sobrancelhas e micropigmentação em Ceilândia, DF").
 - [x] O botão principal aparece na primeira tela no desktop e no mobile (no mobile a 390 × 844, o botão fica a cerca de 515 px do topo).
 - [x] O texto do botão principal é o mesmo em todo o site ("Agendar pelo WhatsApp") e está definido em um único lugar (`primaryCta.label`).
-- [ ] Foto real da profissional no hero: **não há foto da Jaqueline** (pendência 3). O hero usa uma foto real de resultado, identificada com o nome dela.
+- [x] Foto real da profissional no hero, identificada com nome e especialidade (resolução abaixo do ideal: pendência 3).
 - [x] Sinais de confiança verificáveis logo abaixo do botão (17 anos, Ceilândia Sul, horário).
 - [x] Serviços organizados pela situação da visitante ("Para quem"), cada um com ação própria.
 - [x] As seções "Sobre", "Como eu trabalho" e "Dúvidas" terminam com um próximo passo.

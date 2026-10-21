@@ -1,22 +1,25 @@
 import Image from "next/image";
-import { about, brand } from "@/content/site";
+import { about } from "@/content/site";
 import { Container } from "@/components/ui/Container";
 import { CtaButton } from "@/components/ui/CtaButton";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function About() {
   return (
-    <section id="sobre" aria-labelledby="sobre-title" className="bg-cha py-14 sm:py-16 lg:py-20">
+    <section id="sobre" aria-labelledby="sobre-title" className="bg-paper py-14 sm:py-16 lg:py-20">
       <Container className="grid gap-12 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-5">
-          <Image
-            src={brand.logo.src}
-            width={brand.logo.width}
-            height={brand.logo.height}
-            alt={brand.logo.alt}
-            sizes="(min-width: 1024px) 34vw, 90vw"
-            className="mx-auto h-auto w-full max-w-md"
-          />
+          {/* Mesmo retrato do hero, com recorte mais fechado no rosto */}
+          <div className="relative mx-auto aspect-square w-full max-w-sm overflow-hidden rounded-full border-4 border-white bg-cha-deep shadow-[var(--shadow-soft)]">
+            <Image
+              src={about.photo.src}
+              width={about.photo.width}
+              height={about.photo.height}
+              alt={about.photo.alt}
+              sizes="(min-width: 1024px) 24rem, 80vw"
+              className="size-full origin-[50%_40%] scale-[1.3] object-cover object-[50%_30%]"
+            />
+          </div>
           <dl className="mt-10 grid grid-cols-2 gap-4">
             {about.stats.map((stat) => (
               <div key={stat.label} className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)]">
@@ -39,7 +42,7 @@ export function About() {
             ))}
           </div>
 
-          <div className="mt-10 max-w-2xl rounded-[var(--radius-card)] border border-cha-deep bg-paper p-6 sm:p-7">
+          <div className="mt-10 max-w-2xl rounded-[var(--radius-card)] border border-cha-deep bg-white p-6 sm:p-7">
             <h3 className="font-display text-2xl text-ink">{about.educationTitle}</h3>
             <ul className="mt-4 divide-y divide-cha-deep">
               {about.education.map((item) => (

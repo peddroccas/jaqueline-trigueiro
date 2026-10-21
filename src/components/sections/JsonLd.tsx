@@ -1,4 +1,4 @@
-import { SITE_URL, brand, contact, faq, seo, services } from "@/content/site";
+import { SITE_URL, about, brand, contact, faq, seo, services } from "@/content/site";
 
 // Somente dados informados pela cliente: sem horário estruturado (dias a confirmar) e sem avaliações.
 export function JsonLd() {
@@ -26,7 +26,7 @@ export function JsonLd() {
       { "@type": "State", name: "Goiás" },
     ],
     sameAs: [contact.instagram.url],
-    founder: { "@type": "Person", name: brand.name, jobTitle: brand.role },
+    founder: { "@type": "Person", name: brand.name, jobTitle: brand.role, image: `${SITE_URL}${about.photo.src}` },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Serviços",

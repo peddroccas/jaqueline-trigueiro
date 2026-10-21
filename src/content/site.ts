@@ -59,8 +59,8 @@ export type WhatsappMessageKey = keyof typeof whatsappMessages;
 export const nav = [
   { label: "Serviços", href: "#servicos" },
   { label: "Antes e depois", href: "#resultados" },
-  { label: "Como trabalho", href: "#metodo" },
   { label: "Sobre", href: "#sobre" },
+  { label: "Como trabalho", href: "#metodo" },
   { label: "Espaço", href: "#espaco" },
   { label: "Contato", href: "#contato" },
 ];
@@ -81,13 +81,14 @@ export const hero = {
     "Há 17 anos desenho sobrancelhas à mão livre, respeitando os seus pelos, o formato do seu rosto e o que você deseja.",
   secondaryLink: { label: "Ver antes e depois", href: "#resultados" },
   trust: ["17 anos de experiência", "Formação avançada em fio a fio", "Ceilândia Sul, das 8h às 20h"],
+  // [A CONFIRMAR: arquivo original da foto] — a enviada tem 722 × 863 px; o ideal é 1200 × 1500 px ou mais.
   image: {
-    src: "/images/resultado-sobrancelha-perfil.jpg",
-    width: 900,
-    height: 1600,
-    alt: "Cliente deitada na maca com as sobrancelhas recém-finalizadas por Jaqueline Trigueiro",
+    src: "/images/jaqueline-trigueiro.jpg",
+    width: 722,
+    height: 863,
+    alt: "Jaqueline Trigueiro, designer de sobrancelhas e micropigmentadora em Ceilândia (DF)",
   },
-  imageCaption: { title: "Resultado real", detail: "Design de sobrancelhas · Ceilândia Sul" },
+  imageCaption: { title: "Jaqueline Trigueiro", detail: "Designer de sobrancelhas · Ceilândia Sul" },
 };
 
 type Photo = { src: string; width: number; height: number; alt: string };
@@ -187,6 +188,12 @@ export const results = {
   ],
   more: [
     {
+      src: "/images/resultado-sobrancelha-perfil.jpg",
+      width: 900,
+      height: 1600,
+      alt: "Cliente deitada na maca com as sobrancelhas recém-finalizadas",
+    },
+    {
       src: "/images/resultado-labios-sobrancelha.jpg",
       width: 1407,
       height: 1220,
@@ -249,7 +256,12 @@ export const about = {
     { course: "Micropigmentação básica", school: "Ciclos Estética" },
     { course: "Micropigmentação avançada em fio a fio", school: "IESE Goiânia" },
   ],
-  // [A CONFIRMAR: foto profissional da Jaqueline] — sem foto, a seção usa o logotipo.
+  photo: {
+    src: "/images/jaqueline-trigueiro.jpg",
+    width: 722,
+    height: 863,
+    alt: "Jaqueline Trigueiro, designer de sobrancelhas e micropigmentadora em Ceilândia (DF)",
+  },
 };
 
 export const space = {

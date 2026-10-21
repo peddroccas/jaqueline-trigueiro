@@ -5,7 +5,7 @@ import { BrowArc } from "@/components/ui/Icons";
 
 export function Method() {
   return (
-    <section id="metodo" aria-labelledby="metodo-title" className="bg-paper py-14 sm:py-16 lg:py-20">
+    <section id="metodo" aria-labelledby="metodo-title" className="bg-cha py-14 sm:py-16 lg:py-20">
       <Container className="grid gap-12 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-5">
           <p className="eyebrow text-gold">{method.eyebrow}</p>
