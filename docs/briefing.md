@@ -104,7 +104,9 @@ O trabalho da Jaqueline é decidir o traço: qual pelo tirar, onde a sobrancelha
 
 Profissional · Confiável · Acolhedor · Elegante · Humano.
 
-Por isso: elegância sem frieza, com tons de pele e rosa chá, cartões brancos com sombra suave, textos em primeira pessoa e diretos, e nenhum excesso de efeitos.
+Por isso: elegância sem frieza, com tons de pele e rosa chá, cartões brancos com sombra suave e nenhum excesso de efeitos.
+
+**Voz do texto:** todo o site fala **em primeira pessoa**, como se a própria Jaqueline falasse com a cliente ("eu atendo", "sobre mim", "fotos de clientes que eu atendi"). O nome dela aparece só onde é nome próprio (logo, "Prazer, eu sou a Jaqueline", título da página para o Google, rodapé), nunca como narradora em terceira pessoa. As mensagens pré-preenchidas do WhatsApp começam com "Olá, Jaqueline!" porque são a voz da visitante.
 
 ### 7.3. Diferenciação de outros projetos da equipe
 
@@ -203,23 +205,23 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 - **Sobretítulo [Sugerido]:** "Designer de sobrancelhas · Ceilândia Sul".
 - **h1 [Sugerido]:** "Design de sobrancelhas e micropigmentação em Ceilândia, DF".
 - **Subtítulo [Sugerido]:** "Há 17 anos desenho sobrancelhas à mão livre, respeitando o seu desenho natural, a quantidade de pelos e o formato do seu rosto."
-- **Slogan [Confirmado pela equipe]:** "Tirar pelo de sobrancelha todos conseguem, saber qual pelo tirar é o meu diferencial." Aparece em destaque, como citação, logo abaixo da dobra do hero (fundo do hero), assinada por Jaqueline Trigueiro. "Pelo" está sem acento, conforme a ortografia vigente.
+- **Slogan [Confirmado pela equipe]:** "Tirar pelo de sobrancelha todos conseguem, saber qual pelo tirar é o meu diferencial." Aparece em destaque, como citação, logo abaixo da dobra do hero (fundo do hero), sem assinatura (o site já fala em primeira pessoa). "Pelo" está sem acento, conforme a ortografia vigente.
 - **Fundo:** degradê suave de `blush` → `cha` → `paper`.
 - **Ações:** "Agendar pelo WhatsApp" + link "Ver antes e depois".
 - **Sinais de confiança [Confirmado]:** 17 anos de experiência · Atendimento presencial na Ceilândia Sul · Das 8h às 20h.
-- **Imagem:** foto real de resultado em moldura de arco, com o cartão "Trabalho de Jaqueline Trigueiro · Sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
+- **Imagem:** foto real de resultado em moldura de arco, com o cartão "Resultado real · Design de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
 - **Desktop:** texto à esquerda (7/12) e foto à direita (5/12). **Mobile:** título → subtítulo → botão → sinais de confiança → foto (a foto fica abaixo do botão).
 
 ### 10.3. Serviços (`Services`) — `#servicos`
 - **Finalidade:** a visitante se reconhecer numa situação e agendar aquele serviço.
 - **h2 [Sugerido]:** "O que você procura hoje?"
-- **Composição:** formato de "cardápio" de estúdio. Os dois serviços principais (Design e Micropigmentação de sobrancelhas) aparecem como cartões grandes com foto de resultado; os outros três aparecem como linhas numeradas. Cada item tem a linha "Para quem", o título, uma descrição curta, os termos usados pela cliente (henna, tintura, linha, pinça, anestésico) e o link "Agendar este serviço" com mensagem própria.
-- **Mobile:** cartões empilhados; as linhas numeradas viram blocos com divisor.
+- **Composição:** os dois serviços principais (Design e Micropigmentação de sobrancelhas) aparecem como cartões grandes em rosa chá, com foto de resultado (proporção 16:7). Os outros três (Brow lamination, Micropigmentação labial e Depilação) aparecem em três cartões brancos menores, lado a lado. Ordem em cada cartão: título → "Para quem…" (itálico dourado) → descrição curta com os termos usados pela cliente (henna, tintura, linha, pinça, anestésico) → link "Agendar …", com mensagem própria no WhatsApp. Os links ficam alinhados na base dos cartões.
+- **Mobile:** todos os cartões em uma coluna.
 
 ### 10.4. Antes e depois (`Results`) — `#resultados`
 - **Finalidade:** prova visual real.
 - **h2 [Sugerido]:** "Antes e depois, feitos aqui"
-- **Composição:** quatro cartões brancos (três de sobrancelha e um de lábios), cada um com "Antes" em cima e "Depois" embaixo, rotulados por texto (não só por cor), como nas montagens originais. Abaixo, uma faixa com três fotos de resultado. Nota: "Fotos de clientes atendidas pela Jaqueline. O resultado varia de pessoa para pessoa."
+- **Composição:** quatro cartões brancos (três de sobrancelha e um de lábios), cada um com "Antes" em cima e "Depois" embaixo, rotulados por texto (não só por cor), como nas montagens originais. Abaixo, uma faixa com três fotos de resultado. Nota: "Fotos de clientes que eu atendi. O resultado varia de pessoa para pessoa."
 - **Fundo:** `cha`. **Ação:** botão principal no fim.
 - **Mobile:** os cartões ficam em uma coluna; a faixa de resultados vira uma grade de duas colunas, com a terceira foto (horizontal) ocupando a largura toda.
 

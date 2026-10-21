@@ -68,7 +68,6 @@ export function Hero() {
           <p className="mt-4 font-display text-[1.75rem] leading-snug font-medium text-balance text-ink italic sm:text-4xl">
             “{hero.slogan}”
           </p>
-          <footer className="eyebrow mt-4 text-gold">Jaqueline Trigueiro</footer>
         </blockquote>
       </Container>
     </section>

@@ -87,7 +87,7 @@ export const hero = {
     height: 1600,
     alt: "Cliente deitada na maca com as sobrancelhas recém-finalizadas por Jaqueline Trigueiro",
   },
-  imageCaption: { title: "Trabalho de Jaqueline Trigueiro", detail: "Sobrancelhas · Ceilândia Sul" },
+  imageCaption: { title: "Resultado real", detail: "Design de sobrancelhas · Ceilândia Sul" },
 };
 
 type Photo = { src: string; width: number; height: number; alt: string };
@@ -177,7 +177,7 @@ export const servicesSection = {
 export const results = {
   eyebrow: "Antes e depois",
   title: "Antes e depois, feitos aqui",
-  intro: "Fotos de clientes atendidas pela Jaqueline. O resultado varia de pessoa para pessoa.",
+  intro: "Fotos de clientes que eu atendi. O resultado varia de pessoa para pessoa.",
   pairs: [
     { id: "sobrancelha-1", label: "Sobrancelhas", alt: "sobrancelhas de uma cliente de pele clara" },
     { id: "sobrancelha-2", label: "Sobrancelhas", alt: "sobrancelhas de uma cliente de pele negra" },
@@ -231,7 +231,7 @@ export const method = {
 };
 
 export const about = {
-  eyebrow: "Sobre a Jaqueline",
+  eyebrow: "Sobre mim",
   title: "Prazer, eu sou a Jaqueline",
   paragraphs: [
     "Trabalho com design de sobrancelhas e depilação há 17 anos e, há 12, também com micropigmentação. Escolhi esta profissão para poder organizar meus horários de acordo com a rotina da minha família.",

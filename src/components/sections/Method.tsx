@@ -14,7 +14,6 @@ export function Method() {
             <p className="font-display text-[2.125rem] leading-[1.12] font-medium text-balance text-ink italic sm:text-5xl">
               “{method.quote}”
             </p>
-            <footer className="mt-5 text-muted">— Jaqueline Trigueiro</footer>
           </blockquote>
         </div>
 
