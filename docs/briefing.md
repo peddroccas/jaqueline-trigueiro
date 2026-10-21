@@ -226,7 +226,7 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 - **Ações:** "Agendar pelo WhatsApp" + link "Ver antes e depois".
 - **Sinais de confiança [Confirmado]:** 17 anos de experiência · Formação avançada em fio a fio · Ceilândia Sul, das 8h às 20h. ("Clientes que me acompanham desde o início" foi testado aqui e removido: solto, sem contexto, não dizia nada para quem chega. A ideia ficou no "Sobre mim".)
 - **Imagem:** foto da Jaqueline na sala de atendimento, em moldura de arco, com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
-- **Desktop:** texto à esquerda (7/12) e foto à direita (5/12). **Mobile:** título → subtítulo → botão → sinais de confiança → foto (a foto fica abaixo do botão).
+- **Desktop:** texto à esquerda (7/12) e foto em arco à direita (5/12). **Celular e tablet:** foto no topo, larga (4:3 no celular, 16:10 no tablet) e recortada no rosto, com o cartão do nome por cima → título → subtítulo → botão. O sobretítulo fica escondido no celular porque repetia o título. Medido: em 390 × 844 a foto vai de 97 a 352 px e o botão termina em 663 px; em 360 × 740 o botão termina em 678 px. Antes, a primeira tela do celular não tinha imagem nenhuma (a foto começava em 794 px).
 
 ### 10.3. Serviços (`Services`) — `#servicos`
 - **Finalidade:** a visitante se reconhecer numa situação e agendar aquele serviço.
