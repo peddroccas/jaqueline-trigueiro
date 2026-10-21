@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Tokens da marca Jaqueline Trigueiro (rosa chá + dourado) — ver docs/briefing.md, seção 7.4 */
+@theme {
+  --color-paper: #fcf8f5;
+  --color-cha: #f5e6df;
+  --color-cha-deep: #ead2c7;
+  --color-blush: #e6c4b6;
+  --color-ink: #3a2923;
+  --color-muted: #6a534b;
+  --color-gold: #875a26;
+  --color-gold-line: #c9a16b;
+  --color-focus: #9c6b30;
+  /* Reservado ao botão principal */
+  --color-accent: #c2955a;
+  --color-accent-hover: #cda36b;
+
+  --radius-card: 1.5rem;
+  --shadow-cta: 0 1px 0 rgb(255 255 255 / 0.5) inset, 0 10px 24px -12px rgb(135 90 38 / 0.55);
+  --shadow-soft: 0 24px 48px -32px rgb(58 41 35 / 0.35);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    /* Âncoras param abaixo do cabeçalho fixo */
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 3px;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Sobretítulo das seções */
+@utility eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
