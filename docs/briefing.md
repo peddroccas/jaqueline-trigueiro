@@ -102,6 +102,7 @@ Os textos foram reescritos para falar do que a cliente ganha, e não da conveni�
 - Objeções respondidas: dor (anestésico e linha), resultado artificial, técnica, **preço** (nova pergunta: "Quanto custa?", sem citar valores) e outras cidades.
 - Chamadas que dizem o próximo passo ("Gostou? Me conte no WhatsApp o que você quer para a sua sobrancelha", "Vamos marcar o seu horário?").
 - Sem promessas de resultado, sem urgência e sem tempo de resposta inventado.
+- **Segunda passada (edição):** frases mais curtas e sem ideias repetidas ("fechar os olhos e confiar" ficou só na citação do método), um fato concreto por frase, e títulos de seção com termos de busca quando cabem ("Atendimento na Ceilândia Sul"). A página inteira foi lida em sequência para conferir se cada trecho faz sentido no lugar onde aparece (ex.: "Não encontrou a sua dúvida?" funciona antes ou depois da lista de perguntas).
 - **A confirmar com a cliente:** a etiqueta "Técnica fio a fio" no serviço de micropigmentação. Ela tem a formação, mas não listou a técnica entre os serviços.
 
 ## 7. Direção de arte

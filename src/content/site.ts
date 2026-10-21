@@ -78,7 +78,7 @@ export const hero = {
   titleEmphasis: "e micropigmentação",
   titleEnd: "em Ceilândia, DF",
   subtitle:
-    "Sobrancelhas desenhadas à mão livre para combinar com o seu rosto, por quem faz isso há 17 anos. Eu respeito os seus pelos e o seu desenho natural; você só precisa fechar os olhos e confiar.",
+    "Há 17 anos desenho sobrancelhas à mão livre, respeitando os seus pelos, o formato do seu rosto e o que você deseja.",
   secondaryLink: { label: "Ver antes e depois", href: "#resultados" },
   trust: ["17 anos de experiência", "Formação avançada em fio a fio", "Ceilândia Sul, das 8h às 20h"],
   image: {
@@ -108,9 +108,9 @@ export const services: { featured: Service[]; more: Service[] } = {
     {
       id: "design",
       title: "Design de sobrancelhas",
-      forWho: "Para quem quer a sobrancelha alinhada sem perder a naturalidade.",
+      forWho: "Para quem quer a sobrancelha alinhada, sem perder a naturalidade.",
       description:
-        "À mão livre, com limpeza na linha e acabamento na pinça. Mantenho o seu desenho natural e tiro só o que precisa sair, do jeito que você deseja.",
+        "Feito à mão livre: limpeza na linha e acabamento na pinça. Mantenho o seu desenho natural e tiro só o que precisa sair.",
       details: ["Com henna", "Sem henna", "Tintura de sobrancelha"],
       linkLabel: "Agendar design",
       message: "design",
@@ -126,7 +126,7 @@ export const services: { featured: Service[]; more: Service[] } = {
       title: "Micropigmentação de sobrancelhas",
       forWho: "Para quem quer acordar com a sobrancelha pronta, sem precisar de maquiagem.",
       description:
-        "Tenho formação avançada em fio a fio. Antes de pigmentar, faço o design e as medições para encontrar a simetria do seu rosto, escolhemos juntas a cor e você aprova o desenho. Só então começo, com anestésico.",
+        "Primeiro faço o design e as medições para a simetria do seu rosto. Depois escolhemos juntas a cor e você aprova o desenho. Só então começo, com anestésico.",
       details: ["Técnica fio a fio", "Desenho aprovado por você", "Com anestésico"],
       linkLabel: "Agendar micropigmentação",
       message: "micropigmentacao",
@@ -142,8 +142,8 @@ export const services: { featured: Service[]; more: Service[] } = {
     {
       id: "brow-lamination",
       title: "Brow lamination",
-      forWho: "Para quem quer os fios alinhados e penteados todos os dias.",
-      description: "Os fios são alinhados e direcionados para a sobrancelha ficar uniforme e com aparência mais cheia.",
+      forWho: "Para quem quer fios alinhados e penteados.",
+      description: "Alinha e direciona os fios para a sobrancelha parecer mais cheia e uniforme.",
       linkLabel: "Agendar brow lamination",
       message: "browLamination",
     },
@@ -151,15 +151,15 @@ export const services: { featured: Service[]; more: Service[] } = {
       id: "micropigmentacao-labial",
       title: "Micropigmentação labial",
       forWho: "Para quem quer lábios com mais cor e contorno definido.",
-      description: "Pigmentação dos lábios com uma cor escolhida junto com você, para combinar com o seu tom.",
+      description: "A cor é escolhida junto com você, para combinar com o seu tom de pele.",
       linkLabel: "Agendar micropigmentação labial",
       message: "labial",
     },
     {
       id: "depilacao",
       title: "Depilação de corpo inteiro",
-      forWho: "Para quem quer cuidar da depilação com quem já cuida da sua sobrancelha.",
-      description: "Epilação de corpo inteiro, com o mesmo cuidado e os mesmos 17 anos de experiência.",
+      forWho: "Para quem quer uma depilação feita com calma e cuidado.",
+      description: "Epilação de corpo inteiro, feita por quem trabalha com depilação há 17 anos.",
       linkLabel: "Agendar depilação",
       message: "depilacao",
     },
@@ -170,14 +170,14 @@ export const servicesSection = {
   eyebrow: "Serviços",
   title: "O que você procura hoje?",
   intro:
-    "Sobrancelhas são a minha especialidade há 17 anos. Escolha o que você procura e me chame no WhatsApp: eu te ajudo a decidir o melhor para o seu rosto.",
+    "Sobrancelha é a minha especialidade. Escolha o serviço e me chame no WhatsApp. Se ficar em dúvida, eu te ajudo a escolher o que combina com você.",
 };
 
 // [A CONFIRMAR: qual serviço aparece em cada foto] — por enquanto as legendas dizem só a região.
 export const results = {
   eyebrow: "Antes e depois",
   title: "Antes e depois de clientes reais",
-  intro: "Cada sobrancelha é desenhada para o rosto de quem está na maca. Veja alguns trabalhos meus. O resultado varia de pessoa para pessoa.",
+  intro: "Cada sobrancelha é desenhada para o rosto da cliente. Veja alguns dos meus trabalhos (o resultado varia de pessoa para pessoa).",
   ctaNote: "Gostou? Me conte no WhatsApp o que você quer para a sua sobrancelha.",
   pairs: [
     { id: "sobrancelha-1", label: "Sobrancelhas", alt: "sobrancelhas de uma cliente de pele clara" },
@@ -214,19 +214,19 @@ export const method = {
   steps: [
     {
       title: "Você me chama no WhatsApp",
-      text: "Me conta o que você deseja e já combinamos o melhor horário para você.",
+      text: "Você conta o que deseja e combinamos o melhor horário.",
     },
     {
-      title: "Avalio o seu desenho natural",
-      text: "Observo a sobrancelha original, a quantidade de pelos e o formato do seu rosto.",
+      title: "Avalio a sua sobrancelha",
+      text: "Olho o desenho natural, a quantidade de pelos e o formato do seu rosto.",
     },
     {
-      title: "Marcações e medições",
-      text: "Encontro a simetria de acordo com o seu rosto. Na micropigmentação, escolho com você uma cor que combine.",
+      title: "Faço as marcações",
+      text: "Meço e marco para encontrar a simetria do seu rosto. Na micropigmentação, escolhemos juntas a cor.",
     },
     {
-      title: "Você aprova antes de começar",
-      text: "Na micropigmentação, a pele é preparada e a pigmentação só começa com o anestésico em efeito.",
+      title: "Você aprova antes de pigmentar",
+      text: "Só começo a micropigmentação depois que você aprova o desenho, e com o anestésico em efeito.",
     },
   ],
 };
@@ -235,9 +235,9 @@ export const about = {
   eyebrow: "Sobre mim",
   title: "Prazer, eu sou a Jaqueline",
   paragraphs: [
-    "Há 17 anos cuido de sobrancelhas e depilação, e há 12 também faço micropigmentação. Nesse tempo aprendi que cada rosto pede um desenho diferente, e é isso que eu busco em cada atendimento.",
-    "Tenho clientes que confiam em mim há muitos anos. Acho que é porque aqui ninguém é atendida com pressa: eu escuto o que você deseja, explico cada etapa e você aprova o desenho antes de começar.",
-    "Meu compromisso é com a sua segurança e com o que você sonhou para a sua sobrancelha. Aqui você pode confiar.",
+    "São 17 anos cuidando de sobrancelhas e depilação e 12 com micropigmentação. Nesse tempo aprendi que cada rosto pede um desenho diferente.",
+    "Tenho clientes que confiam em mim há muitos anos, porque aqui ninguém é atendida com pressa: eu escuto o que você quer e explico cada etapa.",
+    "Meu compromisso é com a sua segurança e com a sobrancelha que você sonhou. Aqui você pode confiar.",
   ],
   stats: [
     { value: "17", unit: "anos", label: "de design de sobrancelhas e depilação" },
@@ -254,8 +254,8 @@ export const about = {
 
 export const space = {
   eyebrow: "O espaço",
-  title: "Onde eu atendo",
-  text: "Atendo com hora marcada na minha sala na Ceilândia Sul, para você ser atendida com calma. Recebo clientes de todo o Distrito Federal e de Goiás.",
+  title: "Atendimento na Ceilândia Sul",
+  text: "Atendo com hora marcada, na minha sala, para você ser atendida com calma. Recebo clientes de todo o Distrito Federal e de Goiás.",
   image: {
     src: "/images/espaco-atendimento.jpg",
     width: 1200,
@@ -266,28 +266,28 @@ export const space = {
 };
 
 export const faq = {
-  eyebrow: "Dúvidas",
+  eyebrow: "Dúvidas frequentes",
   title: "Antes de agendar",
   items: [
     {
       question: "A micropigmentação dói?",
       answer:
-        "Antes de pigmentar, a pele é preparada e recebe anestésico. A pigmentação só começa com o anestésico em efeito. A sensibilidade varia de pessoa para pessoa.",
+        "A pele recebe anestésico antes, e a pigmentação só começa com ele em efeito. A sensibilidade varia de pessoa para pessoa.",
     },
     {
       question: "A epilação com linha dói?",
       answer:
-        "A linha é usada na limpeza da sobrancelha, antes do design com pinça. A sensação varia de pessoa para pessoa. Se você tiver receio, me conte no WhatsApp antes de agendar.",
+        "A linha é usada só na limpeza, antes do acabamento na pinça. A sensação varia de pessoa para pessoa; se você tiver receio, me conte no WhatsApp.",
     },
     {
       question: "A minha sobrancelha vai ficar artificial?",
       answer:
-        "O desenho respeita a sua sobrancelha original, a quantidade de pelos e o formato do seu rosto. Na micropigmentação, você aprova o desenho antes de qualquer pigmentação.",
+        "O objetivo é o contrário: o desenho segue a sua sobrancelha original, os seus pelos e o formato do seu rosto. Na micropigmentação, você aprova o desenho antes.",
     },
     {
       question: "Você trabalha com a técnica que eu quero?",
       answer:
-        "Na micropigmentação, a técnica é escolhida de acordo com a necessidade da sua sobrancelha e o seu gosto. Se você procura uma técnica específica, pergunte pelo WhatsApp antes de agendar.",
+        "Tenho formação avançada em fio a fio, e a técnica é escolhida pela necessidade da sua sobrancelha e pelo seu gosto. Procura outra técnica? Me pergunte no WhatsApp.",
     },
     {
       question: "Quanto custa?",
@@ -296,20 +296,20 @@ export const faq = {
     },
     {
       question: "Como faço para agendar?",
-      answer: "O agendamento é pelo WhatsApp (61) 98453-7188. Atendo das 8h às 20h.",
+      answer: "Pelo WhatsApp (61) 98453-7188. Atendo das 8h às 20h.",
     },
     {
       question: "Atende quem vem de outras cidades?",
       answer:
-        "Sim. O atendimento é presencial, na Ceilândia Sul, e recebo clientes do Distrito Federal e de Goiás.",
+        "Sim. Recebo clientes de todo o Distrito Federal e de Goiás na minha sala, na Ceilândia Sul.",
     },
   ],
-  moreTitle: "Ficou com alguma dúvida?",
+  moreTitle: "Não encontrou a sua dúvida?",
   moreText: "Me chame no WhatsApp. Prefiro tirar todas as suas dúvidas antes de você agendar.",
 };
 
 export const contactSection = {
   eyebrow: "Agendamento",
   title: "Vamos marcar o seu horário?",
-  text: "É só me chamar no WhatsApp, dizer qual serviço você quer e o melhor dia para você. Eu respondo e deixamos tudo combinado.",
+  text: "Me chame no WhatsApp, diga o serviço e o melhor dia para você. Eu respondo e deixamos tudo combinado.",
 };
