@@ -11,7 +11,7 @@ export function Hero() {
       aria-labelledby="hero-title"
       className="relative overflow-hidden bg-[radial-gradient(120%_90%_at_85%_10%,var(--color-blush)_0%,var(--color-cha)_45%,var(--color-paper)_100%)]"
     >
-      <Container className="relative grid gap-6 pt-5 pb-16 sm:gap-10 sm:pt-10 lg:grid-cols-12 lg:items-center lg:gap-10 lg:pt-14 lg:pb-16">
+      <Container className="relative grid gap-5 pt-4 pb-16 sm:gap-10 sm:pt-10 lg:grid-cols-12 lg:items-center lg:gap-10 lg:pt-14 lg:pb-16">
         <div className="lg:col-span-7">
           {/* No celular o sobretítulo sai: repetia o título e empurrava o botão para baixo */}
           <p className="eyebrow text-gold max-sm:hidden">{hero.eyebrow}</p>
@@ -21,7 +21,7 @@ export function Hero() {
           >
             {hero.titleStart} <em className="font-medium text-gold">{hero.titleEmphasis}</em> {hero.titleEnd}
           </h1>
-          <p className="mt-4 max-w-xl text-[1.0625rem] leading-relaxed text-muted sm:mt-6 sm:text-xl">{hero.subtitle}</p>
+          <p className="mt-3 max-w-xl text-[1.0625rem] leading-relaxed text-muted sm:mt-6 sm:text-xl">{hero.subtitle}</p>
 
           <div className="mt-6 flex flex-col gap-2 sm:mt-8 sm:flex-row sm:items-center sm:gap-7">
             <CtaButton location="hero" className="w-full sm:w-auto" />
@@ -57,9 +57,10 @@ export function Hero() {
               className="size-full object-cover object-[40%_26%] lg:object-[50%_35%]"
             />
           </div>
-          <figcaption className="absolute bottom-3 left-3 rounded-2xl border border-cha-deep bg-white/95 px-3.5 py-2 shadow-[var(--shadow-soft)] lg:-bottom-6 lg:-left-4 lg:px-4 lg:py-3">
-            <span className="block font-display text-base leading-tight text-ink lg:text-lg">{hero.imageCaption.title}</span>
-            <span className="mt-0.5 block text-xs text-muted lg:text-sm">{hero.imageCaption.detail}</span>
+          {/* Legenda abaixo da foto, sem cobrir o rosto nem as mãos */}
+          <figcaption className="mt-2 flex flex-wrap items-baseline justify-center gap-x-2 text-center lg:mt-4">
+            <span className="font-display text-lg leading-tight text-ink">{hero.imageCaption.title}</span>
+            <span className="text-sm text-muted">{hero.imageCaption.detail}</span>
           </figcaption>
         </figure>
       </Container>

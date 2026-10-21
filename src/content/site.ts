@@ -90,7 +90,7 @@ export const hero = {
   imageCaption: { title: "Jaqueline Trigueiro", detail: "Designer de sobrancelhas · Ceilândia Sul" },
 };
 
-type Photo = { src: string; width: number; height: number; alt: string };
+type Photo = { src: string; width: number; height: number; alt: string; position?: string };
 
 export type Service = {
   id: string;
@@ -115,10 +115,10 @@ export const services: { featured: Service[]; more: Service[] } = {
       linkLabel: "Agendar design",
       message: "design",
       image: {
-        src: "/images/sobrancelha-3-depois.jpg",
-        width: 1200,
-        height: 588,
-        alt: "Sobrancelhas alinhadas e preenchidas depois do atendimento",
+        src: "/images/resultado-sobrancelha-olhos-fechados.jpg",
+        width: 1600,
+        height: 866,
+        alt: "Sobrancelhas alinhadas depois do design, vistas de frente com os olhos fechados",
       },
     },
     {
@@ -131,10 +131,11 @@ export const services: { featured: Service[]; more: Service[] } = {
       linkLabel: "Agendar micropigmentação",
       message: "micropigmentacao",
       image: {
-        src: "/images/sobrancelha-1-depois.jpg",
-        width: 1200,
-        height: 588,
-        alt: "Sobrancelhas pigmentadas com desenho definido e cor uniforme",
+        src: "/images/resultado-sobrancelha-perfil.jpg",
+        width: 900,
+        height: 1600,
+        alt: "Sobrancelhas recém-pigmentadas, com fios desenhados e cor uniforme",
+        position: "50% 42%",
       },
     },
   ],
@@ -185,38 +186,12 @@ export const results = {
     { id: "sobrancelha-3", label: "Sobrancelhas", alt: "sobrancelhas de uma cliente de cabelos escuros" },
     { id: "labios-1", label: "Lábios", alt: "lábios de uma cliente" },
   ],
-  more: [
-    {
-      src: "/images/resultado-sobrancelha-perfil.jpg",
-      width: 900,
-      height: 1600,
-      alt: "Cliente deitada na maca com as sobrancelhas recém-finalizadas",
-    },
-    {
-      src: "/images/resultado-labios-sobrancelha.jpg",
-      width: 1407,
-      height: 1220,
-      alt: "Cliente com lábios pigmentados e sobrancelhas desenhadas",
-    },
-    {
-      src: "/images/resultado-sobrancelha-rosto.jpg",
-      width: 1200,
-      height: 1600,
-      alt: "Cliente sorrindo na maca com as sobrancelhas finalizadas",
-    },
-    {
-      src: "/images/resultado-sobrancelha-olhos-fechados.jpg",
-      width: 1600,
-      height: 866,
-      alt: "Sobrancelhas finalizadas vistas de frente, com os olhos fechados",
-    },
-  ] satisfies Photo[],
 };
 
 export const method = {
   eyebrow: "Como eu trabalho",
   quote: "Quero que você tenha a confiança de fechar os olhos e saber que vai sair com uma sobrancelha bem feita.",
-  title: "Do primeiro contato ao desenho aprovado",
+  title: "Como é o seu atendimento",
   steps: [
     {
       title: "Você me chama no WhatsApp",
@@ -227,14 +202,19 @@ export const method = {
       text: "Olho o desenho natural, a quantidade de pelos e o formato do seu rosto.",
     },
     {
-      title: "Faço as marcações",
-      text: "Meço e marco para encontrar a simetria do seu rosto. Na micropigmentação, escolhemos juntas a cor.",
-    },
-    {
-      title: "Você aprova antes de pigmentar",
-      text: "Só começo a micropigmentação depois que você aprova o desenho, e com o anestésico em efeito.",
+      title: "Faço o design",
+      text: "Limpeza na linha e acabamento na pinça, tirando só o que precisa sair. Se você escolheu henna, tintura ou brow lamination, é aqui que entram.",
     },
   ],
+  micro: {
+    title: "Na micropigmentação, além disso:",
+    items: [
+      "Faço as medições para encontrar a simetria do seu rosto.",
+      "Escolhemos juntas a cor que combina com você.",
+      "Você aprova o desenho antes de qualquer pigmentação.",
+      "A pigmentação só começa com o anestésico em efeito.",
+    ],
+  },
 };
 
 export const about = {

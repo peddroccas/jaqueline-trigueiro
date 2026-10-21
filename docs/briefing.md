@@ -231,13 +231,13 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 ### 10.3. Serviços (`Services`) — `#servicos`
 - **Finalidade:** a visitante se reconhecer numa situação e agendar aquele serviço.
 - **h2 [Sugerido]:** "O que você procura hoje?"
-- **Composição:** os dois serviços principais (Design e Micropigmentação de sobrancelhas) aparecem como cartões grandes em rosa chá, com foto de resultado (proporção 16:7). Os outros três (Brow lamination, Micropigmentação labial e Depilação) aparecem em três cartões brancos menores, lado a lado. Ordem em cada cartão: título → "Para quem…" (itálico dourado) → descrição curta com os termos usados pela cliente (henna, tintura, linha, pinça, anestésico) → link "Agendar …", com mensagem própria no WhatsApp. Os links ficam alinhados na base dos cartões.
+- **Composição:** os dois serviços principais (Design e Micropigmentação de sobrancelhas) aparecem como cartões grandes em rosa chá, com foto de resultado (proporção 16:7) que não aparece em nenhum outro lugar do site (design: `resultado-sobrancelha-olhos-fechados.jpg`; micropigmentação: `resultado-sobrancelha-perfil.jpg`). Os outros três (Brow lamination, Micropigmentação labial e Depilação) aparecem em três cartões brancos menores, lado a lado. Ordem em cada cartão: título → "Para quem…" (itálico dourado) → descrição curta com os termos usados pela cliente (henna, tintura, linha, pinça, anestésico) → link "Agendar …", com mensagem própria no WhatsApp. Os links ficam alinhados na base dos cartões.
 - **Mobile:** todos os cartões em uma coluna.
 
 ### 10.4. Antes e depois (`Results`) — `#resultados`
 - **Finalidade:** prova visual real.
 - **h2 [Sugerido]:** "Antes e depois, feitos aqui"
-- **Composição:** quatro cartões brancos (três de sobrancelha e um de lábios), cada um com "Antes" em cima e "Depois" embaixo, rotulados por texto (não só por cor), como nas montagens originais. Abaixo, uma faixa com três fotos de resultado. Nota: "Fotos de clientes que eu atendi. O resultado varia de pessoa para pessoa."
+- **Composição:** quatro cartões brancos (três de sobrancelha e um de lábios), cada um com "Antes" em cima e "Depois" embaixo, rotulados por texto (não só por cor), como nas montagens originais. A antiga galeria de fotos soltas abaixo dos pares foi removida (item 9 da revisão). Nota: "Fotos de clientes que eu atendi. O resultado varia de pessoa para pessoa."
 - **Fundo:** `cha`. **Ação:** botão principal no fim.
 - **Mobile:** os cartões ficam em uma coluna; a faixa de resultados vira uma grade de duas colunas, com a terceira foto (horizontal) ocupando a largura toda.
 
@@ -347,6 +347,30 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 | 8 | Erro de digitação no logotipo ("Depitação") | arquivo original da cliente |
 
 Resolvidas nesta versão: slogan e cursos (informados pela equipe em 21/10/2026).
+
+## 16.1. Revisão crítica (21/10/2026) e decisões da equipe
+
+Parecer de CRO feito sobre o site pronto. A equipe decidiu item por item:
+
+| # | Item do parecer | Decisão |
+| --- | --- | --- |
+| 1 | Domínio falso no canônico, sitemap, Open Graph e JSON-LD | Pulado por agora (bloqueia a publicação) |
+| 2 | Erro "Depitação" no logotipo | Pulado por agora |
+| 3 | Celular sem imagem na primeira tela | **Feito:** foto no topo no celular e tablet |
+| 4 | Botão principal some por ~7 telas no celular | Pulado |
+| 5 | Sem prova social | Aguardando depoimentos da Jaqueline |
+| 6 | Preço "a partir de" | Mantido sem preço |
+| 7 | Medição de cliques no WhatsApp | Pulado |
+| 8 | Ordem e tamanho do antes e depois | Pulado |
+| 9 | Fotos repetidas nos cartões de serviço e galeria aleatória | **Feito:** cartões com fotos exclusivas; galeria removida |
+| 10 | Foto do espaço pouco elegante | Pulado |
+| 11 | Slogan logo abaixo do hero | Pulado |
+| 12 | "Como eu trabalho" falando só de micropigmentação | **Feito:** 3 etapas para todos + quadro "Na micropigmentação, além disso" |
+| 13 | FAQ sem durabilidade, retoque, pagamento | Pulado |
+| 14 | Logo pequeno no cabeçalho | Pulado |
+| 15 | Dias de atendimento | Pulado |
+| 16 | Link para ligar | Pulado |
+| — | Cartão do nome cobrindo a foto do hero | **Feito:** legenda abaixo da foto em todas as telas |
 
 ## 17. Checklist de conversão e qualidade
 

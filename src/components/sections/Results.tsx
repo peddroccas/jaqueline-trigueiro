@@ -35,21 +35,6 @@ export function Results() {
           ))}
         </ul>
 
-        <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-4" aria-label="Mais resultados">
-          {results.more.map((photo) => (
-            <li key={photo.src} className="aspect-[4/5] overflow-hidden rounded-[var(--radius-card)] bg-cha-deep">
-              <Image
-                src={photo.src}
-                width={photo.width}
-                height={photo.height}
-                alt={photo.alt}
-                sizes="(min-width: 768px) 23vw, 46vw"
-                className="size-full object-cover"
-              />
-            </li>
-          ))}
-        </ul>
-
         <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6">
           <CtaButton location="resultados" className="w-full sm:w-auto" />
           <p className="text-muted">{results.ctaNote}</p>
