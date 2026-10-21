@@ -240,7 +240,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 - **h2:** "Prazer, eu sou a Jaqueline"
 - **Texto [Sugerido, com base nos dados confirmados]:** são 17 anos de design de sobrancelhas e depilação e 12 de micropigmentação; ela escolheu a profissão para conciliar o trabalho com a família; tem clientes que a acompanham desde o começo; dedica tempo a cada atendimento.
 - **Números [Confirmado]:** 17 anos (design e depilação) · 12 anos (micropigmentação).
-- **Formação [Confirmado pela equipe]:** Curso de design de sobrancelhas e depilação · Micropigmentação básica · Micropigmentação avançada.
+- **Formação [Confirmado pela equipe]:** 2009 — Design de sobrancelhas e depilação, Instituto Embeleze · 2014 — Micropigmentação básica, Ciclos Estética · 2016 — Micropigmentação avançada em fio a fio, IESE Goiânia. Exibida como linha do tempo (ano em dourado, curso e escola). As datas batem com os 17 anos (desde 2009) e os 12 anos de micropigmentação (desde 2014).
 - **Foto:** a cliente ainda não enviou foto dela **[Pendente]**. Até chegar, a coluna da esquerda mostra o logotipo e os números de experiência em cartões brancos.
 - **Fundo:** `cha`. **Ação:** botão principal ("momento de maior confiança").
 

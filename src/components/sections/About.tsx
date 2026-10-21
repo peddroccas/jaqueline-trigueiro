@@ -41,11 +41,14 @@ export function About() {
 
           <div className="mt-10 max-w-2xl rounded-[var(--radius-card)] border border-cha-deep bg-paper p-6 sm:p-7">
             <h3 className="font-display text-2xl text-ink">{about.educationTitle}</h3>
-            <ul className="mt-4 space-y-2 text-muted">
+            <ul className="mt-4 divide-y divide-cha-deep">
               {about.education.map((item) => (
-                <li key={item} className="flex gap-3">
+                <li key={item.course} className="flex gap-3 py-3 first:pt-0 last:pb-0">
                   <span aria-hidden className="mt-2.5 size-1.5 shrink-0 rotate-45 bg-gold-line" />
-                  {item}
+                  <span>
+                    <span className="block font-medium text-ink">{item.course}</span>
+                    <span className="block text-muted">{item.school}</span>
+                  </span>
                 </li>
               ))}
             </ul>

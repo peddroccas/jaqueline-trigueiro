@@ -244,9 +244,9 @@ export const about = {
   ],
   educationTitle: "Formação e especializações",
   education: [
-    "Curso de design de sobrancelhas e depilação",
-    "Micropigmentação básica",
-    "Micropigmentação avançada",
+    { course: "Design de sobrancelhas e depilação", school: "Instituto Embeleze" },
+    { course: "Micropigmentação básica", school: "Ciclos Estética" },
+    { course: "Micropigmentação avançada em fio a fio", school: "IESE Goiânia" },
   ],
   // [A CONFIRMAR: foto profissional da Jaqueline] — sem foto, a seção usa o logotipo.
 };
