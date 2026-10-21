@@ -94,6 +94,16 @@ Site de página única (one-page) para **Jaqueline Trigueiro**, designer de sobr
 - **Sem barra fixa no rodapé da tela no mobile**, por decisão da equipe. No celular, o botão aparece na primeira tela (hero), no fim das seções e dentro do menu.
 - **Evitado:** preços (não informados), urgência artificial, promessas de resultado e depoimentos (a cliente diz ter, mas não enviou).
 
+### 6.1. Revisão de texto para conversão (21/10/2026)
+
+Os textos foram reescritos para falar do que a cliente ganha, e não da conveniência da profissional. Exemplo: saiu "escolhi esta profissão para organizar meus horários de acordo com a rotina da minha família". Regras seguidas:
+- Benefício primeiro, com as palavras da própria cliente ("sobrancelha perfeita", "fechar os olhos e confiar", "o que você sonhou").
+- Prova e diferencial com fatos confirmados: 17 anos, clientes desde o início, formação avançada em **fio a fio** (IESE Goiânia), desenho aprovado antes, anestésico.
+- Objeções respondidas: dor (anestésico e linha), resultado artificial, técnica, **preço** (nova pergunta: "Quanto custa?", sem citar valores) e outras cidades.
+- Chamadas que dizem o próximo passo ("Gostou? Me conte no WhatsApp o que você quer para a sua sobrancelha", "Vamos marcar o seu horário?").
+- Sem promessas de resultado, sem urgência e sem tempo de resposta inventado.
+- **A confirmar com a cliente:** a etiqueta "Técnica fio a fio" no serviço de micropigmentação. Ela tem a formação, mas não listou a técnica entre os serviços.
+
 ## 7. Direção de arte
 
 ### 7.1. Conceito criativo — "O traço certo" [Sugerido]
@@ -327,7 +337,7 @@ Ordem: Cabeçalho → Hero → Serviços → Antes e depois → Como eu trabalho
 | 4 | Qual serviço aparece em cada foto de antes/depois (as legendas usam "Sobrancelhas" e "Lábios") | `src/content/site.ts` → `results` (comentário) |
 | 5 | Autorização das clientes que aparecem nas fotos de resultado | (não aparece no site) |
 | 6 | Vídeos enviados (não analisados) e depoimentos (a cliente diz ter) | (não aparecem no site) |
-| 7 | Validar as mensagens pré-preenchidas do WhatsApp | `src/content/site.ts` → `whatsappMessages` |
+| 7 | Validar as mensagens pré-preenchidas do WhatsApp e a etiqueta "Técnica fio a fio" na micropigmentação | `src/content/site.ts` → `whatsappMessages` |
 | 8 | Erro de digitação no logotipo ("Depitação") | arquivo original da cliente |
 
 Resolvidas nesta versão: slogan e cursos (informados pela equipe em 21/10/2026).

@@ -59,7 +59,7 @@ export function Results() {
 
         <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6">
           <CtaButton location="resultados" className="w-full sm:w-auto" />
-          <p className="text-muted">Quer um resultado assim? Me conte o que você deseja.</p>
+          <p className="text-muted">{results.ctaNote}</p>
         </div>
       </Container>
     </section>
