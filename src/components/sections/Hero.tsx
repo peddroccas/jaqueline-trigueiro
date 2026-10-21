@@ -52,7 +52,7 @@ export function Hero() {
               alt={hero.image.alt}
               preload
               sizes="(min-width: 1024px) 34vw, 22rem"
-              className="size-full object-cover object-[50%_30%]"
+              className="size-full object-cover object-[50%_35%]"
             />
           </div>
           <figcaption className="absolute -bottom-6 left-4 rounded-2xl border border-cha-deep bg-white/95 px-4 py-3 shadow-[var(--shadow-soft)] sm:left-0 lg:-left-4">

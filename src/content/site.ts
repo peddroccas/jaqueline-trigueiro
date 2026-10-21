@@ -81,12 +81,11 @@ export const hero = {
     "Há 17 anos desenho sobrancelhas à mão livre, respeitando os seus pelos, o formato do seu rosto e o que você deseja.",
   secondaryLink: { label: "Ver antes e depois", href: "#resultados" },
   trust: ["17 anos de experiência", "Formação avançada em fio a fio", "Ceilândia Sul, das 8h às 20h"],
-  // [A CONFIRMAR: arquivo original da foto] — a enviada tem 722 × 863 px; o ideal é 1200 × 1500 px ou mais.
   image: {
-    src: "/images/jaqueline-trigueiro.jpg",
-    width: 722,
-    height: 863,
-    alt: "Jaqueline Trigueiro, designer de sobrancelhas e micropigmentadora em Ceilândia (DF)",
+    src: "/images/jaqueline-trigueiro-sala.jpg",
+    width: 1200,
+    height: 1500,
+    alt: "Jaqueline Trigueiro sorrindo na sua sala de atendimento, em Ceilândia (DF)",
   },
   imageCaption: { title: "Jaqueline Trigueiro", detail: "Designer de sobrancelhas · Ceilândia Sul" },
 };

@@ -159,7 +159,10 @@ O dourado preenchido (`accent`) aparece **somente** no botão "Agendar pelo What
 - Os metadados das fotos (EXIF, que pode conter localização) foram removidos e as imagens foram reduzidas para no máximo 1600 px.
 - Tratamento: fotos sem filtros. As fotos de resultado não devem ser alteradas, para não descaracterizar o trabalho.
 - Molduras: arco no topo (`rounded-t-full`) para as fotos de destaque e cantos suaves para a galeria.
-- **Foto da Jaqueline [Confirmado, enviada pela equipe em 21/10/2026]:** retrato de rosto (`jaqueline-trigueiro.jpg`, 722 × 863 px, sem metadados). Aparece no hero (moldura em arco 4:5, com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul") e no "Sobre mim" (círculo, recorte mais fechado no rosto). A resolução está abaixo do ideal (1200 × 1500 px) **[Pendente: pedir o arquivo original]**. A foto de resultado que estava no hero passou para a galeria do antes e depois.
+- **Fotos da Jaqueline [Confirmado, enviadas pela equipe em 21/10/2026]:**
+  - **Hero:** selfie na sala de atendimento, com o papel de parede floral rosado ao fundo (`jaqueline-trigueiro-sala.jpg`), recortada em 4:5 no rosto e na mão, 1200 × 1500 px. Fica na moldura em arco com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul".
+  - **Sobre mim:** retrato de rosto (`jaqueline-trigueiro.jpg`, 722 × 863 px), em retângulo de cantos arredondados, sem zoom. O primeiro teste em círculo com zoom de 130% ficou borrado e cortou a cabeça, e foi descartado.
+  - As duas fotos estão sem metadados. A foto de resultado que estava no hero passou para a galeria do antes e depois.
 - **Logotipo:** o fundo preto do arquivo enviado foi removido (PNG transparente, com bordas suaves), para o logo se apoiar direto no fundo rosa chá. A frase do logotipo está escrita "Depitação" em vez de "Depilação" **[Pendente: avisar a cliente; o arquivo não foi alterado]**.
 
 ### 7.7. Acabamento
@@ -222,7 +225,7 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 - **Fundo:** degradê suave de `blush` → `cha` → `paper`.
 - **Ações:** "Agendar pelo WhatsApp" + link "Ver antes e depois".
 - **Sinais de confiança [Confirmado]:** 17 anos de experiência · Formação avançada em fio a fio · Ceilândia Sul, das 8h às 20h. ("Clientes que me acompanham desde o início" foi testado aqui e removido: solto, sem contexto, não dizia nada para quem chega. A ideia ficou no "Sobre mim".)
-- **Imagem:** foto da Jaqueline em moldura de arco, com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
+- **Imagem:** foto da Jaqueline na sala de atendimento, em moldura de arco, com o cartão "Jaqueline Trigueiro · Designer de sobrancelhas · Ceilândia Sul" e um arco dourado fino passando por trás.
 - **Desktop:** texto à esquerda (7/12) e foto à direita (5/12). **Mobile:** título → subtítulo → botão → sinais de confiança → foto (a foto fica abaixo do botão).
 
 ### 10.3. Serviços (`Services`) — `#servicos`
@@ -254,7 +257,7 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 - **Texto [Sugerido, com base nos dados confirmados]:** são 17 anos de design de sobrancelhas e depilação e 12 de micropigmentação; ela escolheu a profissão para conciliar o trabalho com a família; tem clientes que a acompanham desde o começo; dedica tempo a cada atendimento.
 - **Números [Confirmado]:** 17 anos (design e depilação) · 12 anos (micropigmentação).
 - **Formação [Confirmado pela equipe]:** 2009 — Design de sobrancelhas e depilação, Instituto Embeleze · 2014 — Micropigmentação básica, Ciclos Estética · 2016 — Micropigmentação avançada em fio a fio, IESE Goiânia. Exibida como linha do tempo (ano em dourado, curso e escola). As datas batem com os 17 anos (desde 2009) e os 12 anos de micropigmentação (desde 2014).
-- **Foto:** retrato da Jaqueline em círculo (recorte diferente do hero), com os números de experiência em cartões brancos logo abaixo.
+- **Foto:** retrato de rosto da Jaqueline (outra foto, diferente da do hero), em retângulo de cantos arredondados, com os números de experiência em cartões brancos da mesma largura logo abaixo.
 - **Fundo:** `paper`. **Ação:** botão principal ("momento de maior confiança").
 
 ### 10.7. O espaço (`Space`) — `#espaco`
@@ -336,7 +339,7 @@ Com a foto da Jaqueline, o "Sobre mim" subiu para logo depois do antes e depois:
 | --- | --- | --- |
 | 1 | Dias da semana de atendimento (não aparece no site; só o horário 8h–20h) | `src/content/site.ts` → `contact` (comentário) |
 | 2 | Domínio do site | `src/content/site.ts` → `SITE_URL` (comentário `[A CONFIRMAR: domínio do site]`) |
-| 3 | Arquivo original da foto da Jaqueline (a enviada tem 722 × 863 px; ideal 1200 × 1500 px ou mais) | `src/content/site.ts` → `hero.image` (comentário) |
+| 3 | (Opcional) Versão maior do retrato do "Sobre mim" (722 × 863 px; serve, mas 1000 px ou mais deixaria mais nítido em telas de alta resolução) | `src/content/site.ts` → `about.photo` |
 | 4 | Qual serviço aparece em cada foto de antes/depois (as legendas usam "Sobrancelhas" e "Lábios") | `src/content/site.ts` → `results` (comentário) |
 | 5 | Autorização das clientes que aparecem nas fotos de resultado | (não aparece no site) |
 | 6 | Vídeos enviados (não analisados) e depoimentos (a cliente diz ter) | (não aparecem no site) |
@@ -350,7 +353,7 @@ Resolvidas nesta versão: slogan e cursos (informados pela equipe em 21/10/2026)
 - [x] O título do hero diz o que é oferecido, para quem e onde ("Design de sobrancelhas e micropigmentação em Ceilândia, DF").
 - [x] O botão principal aparece na primeira tela no desktop e no mobile (no mobile a 390 × 844, o botão fica a cerca de 515 px do topo).
 - [x] O texto do botão principal é o mesmo em todo o site ("Agendar pelo WhatsApp") e está definido em um único lugar (`primaryCta.label`).
-- [x] Foto real da profissional no hero, identificada com nome e especialidade (resolução abaixo do ideal: pendência 3).
+- [x] Foto real da profissional no hero (1200 × 1500 px), identificada com nome e especialidade.
 - [x] Sinais de confiança verificáveis logo abaixo do botão (17 anos, Ceilândia Sul, horário).
 - [x] Serviços organizados pela situação da visitante ("Para quem"), cada um com ação própria.
 - [x] As seções "Sobre", "Como eu trabalho" e "Dúvidas" terminam com um próximo passo.

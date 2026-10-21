@@ -8,19 +8,19 @@ export function About() {
   return (
     <section id="sobre" aria-labelledby="sobre-title" className="bg-paper py-14 sm:py-16 lg:py-20">
       <Container className="grid gap-12 lg:grid-cols-12 lg:gap-12">
-        <div className="lg:col-span-5">
-          {/* Mesmo retrato do hero, com recorte mais fechado no rosto */}
-          <div className="relative mx-auto aspect-square w-full max-w-sm overflow-hidden rounded-full border-4 border-white bg-cha-deep shadow-[var(--shadow-soft)]">
+        <div className="mx-auto w-full max-w-sm lg:col-span-5">
+          {/* Sem zoom: o arquivo tem 722 px de largura e perde nitidez se ampliado */}
+          <div className="aspect-[4/5] overflow-hidden rounded-[2rem] border-4 border-white bg-cha-deep shadow-[var(--shadow-soft)]">
             <Image
               src={about.photo.src}
               width={about.photo.width}
               height={about.photo.height}
               alt={about.photo.alt}
-              sizes="(min-width: 1024px) 24rem, 80vw"
-              className="size-full origin-[50%_40%] scale-[1.3] object-cover object-[50%_30%]"
+              sizes="(min-width: 1024px) 24rem, 90vw"
+              className="size-full object-cover object-top"
             />
           </div>
-          <dl className="mt-10 grid grid-cols-2 gap-4">
+          <dl className="mt-6 grid grid-cols-2 gap-4">
             {about.stats.map((stat) => (
               <div key={stat.label} className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)]">
                 <dt className="sr-only">{stat.label}</dt>
